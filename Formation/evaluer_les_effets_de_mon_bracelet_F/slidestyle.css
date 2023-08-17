@@ -191,16 +191,6 @@ ul li {
   list-style-image: url("./img/fleche.svg");
 }
 
-.etape {
-  margin-left: 20px;
-  margin-bottom: 30px;
-  border-left: 2px dotted #54409d;
-}
-
-.etape li {
-  list-style-image: url("./img/point-liste.svg");
-}
-
 .formation {
   background-color: #f4f2fc;
   padding: 15px;
@@ -231,6 +221,76 @@ ul li {
   top: -18px;
 }
 
+.warning {
+  color: #fff;
+  background-color: #f8cdda;
+  border: #de2351;
+  padding: 7px 7px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.warning p {
+  font-weight: bold;
+  color: #c71441;
+  margin: 0;
+}
+
+.effets-indesirables-odd {
+  background-color: #e6cef7; /*#e8e4f5;*/
+  padding: 15px;
+}
+
+.effets-indesirables-even {
+  background-color: #f4f2fc;
+  padding: 15px;
+}
+/* ---- Block titre, image, texte ----*/
+
+.block {
+  margin: 10px 0;
+}
+
+.block-titre {
+  color: #fff;
+  font-family: "Branding-bold";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 10px;
+  background-color: #ffbc33;
+  text-align: center;
+  border-radius: 5px 5px 0 0;
+}
+
+.block-image {
+  background-color: #fffdeb;
+  padding: 20px;
+  border-radius: 0 0 5px 5px;
+  text-align: center;
+}
+
+.block-image object {
+  margin: 0 auto;
+}
+
+.block-image p {
+  margin: 20px 0 0 0;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: left;
+}
+
+/* ---- Slick slider ----*/
+
+.animcontainer {
+  margin: 50px 0;
+}
+
+.image-slider {
+  margin: 0 !important;
+}
+
 .pense-bete {
   position: relative;
   color: white;
@@ -245,44 +305,14 @@ ul li {
   left: 16px;
 }
 
-.video-aide {
-  display: block;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* ---- Slick slider ----*/
-
-.animcontainer {
-  margin: 50px 0;
-}
-
-.titre-slider {
-  color: #fff;
-  font-family: "Branding-bold";
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 22px;
-  padding: 10px;
-  background-color: #ffbc33;
-  text-align: center;
-  border-radius: 5px 5px 0 0;
-}
-
-.image-slider {
-  margin: 0 !important;
-}
-
 /*accordeon */
+/* Style the buttons that are used to open and close the accordion panel */
 .accordion {
   font-family: "Branding-bold";
   background-color: #9d45db; /*#54409D;*/
   color: #fff;
-  cursor: pointer;
   width: 100%;
   text-align: left;
-  border: none;
   outline: none;
   transition: 0.4s;
   border-radius: 5px;
@@ -295,13 +325,14 @@ ul li {
   box-shadow: 2px 2px 2px gray, -1px -1px 2px white;
 }
 
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active,
 .accordion:hover {
   background-color: #9d45db;
   opacity: 0.6;
 }
 
-/* Accordion panel*/
+/* Style the accordion panel. Note: hidden by default */
 .panel {
   padding: 18px;
   background-color: rgba(237, 221, 249, 0.2); /*#EDDDF9; */
@@ -332,4 +363,37 @@ ul li {
 
 .savoir h3 {
   color: #54409d;
+}
+
+/* ---- Tableau ----*/
+table {
+  width: 100%;
+  background-color: #fffdeb;
+  border-radius: 5px;
+  overflow: hidden;
+  border-spacing: 0;
+  margin-top: 15px;
+}
+
+td {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  border-left: 2px solid #fff;
+}
+
+.last-row td {
+  border-bottom: none;
+}
+
+.entete {
+  color: #fff;
+  font-family: "Branding-bold";
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 10px;
+  background-color: #ffbc33;
+  text-align: center;
+  border-bottom: none;
 }

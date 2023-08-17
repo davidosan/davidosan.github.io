@@ -151,9 +151,17 @@ ul li {
   margin-left: 10px;
   font-family: "Branding-bold";
   font-weight: 800;
-  font-size: 16px;
+  font-size: 18px;
   margin-bottom: 10px;
   color: #301d5e;
+}
+
+.li-li-sommaire {
+  list-style-image: url("./img/point-liste_bis.svg");
+  /*list-style-position: outside;*/
+  padding-left: 5px;
+  margin-left: 10px;
+  margin-bottom: 5px;
 }
 
 .content img,
@@ -168,12 +176,12 @@ ul li {
   display: flex;
   justify-content: flex-start;
   margin-bottom: 30px;
-  align-items: self-start;
+  align-items: center;
 }
 
 .picto object {
-  width: 60px;
-  height: 60px;
+  width: 120px;
+  height: 120px;
   margin: 0 10px 0 -3px;
 }
 
@@ -231,27 +239,6 @@ ul li {
   top: -18px;
 }
 
-.pense-bete {
-  position: relative;
-  color: white;
-}
-
-.pense-bete-text {
-  position: absolute;
-  text-align: left;
-  padding: 30px 15px;
-  font-size: 14px;
-  top: 8px;
-  left: 16px;
-}
-
-.video-aide {
-  display: block;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 /* ---- Slick slider ----*/
 
 .animcontainer {
@@ -274,7 +261,80 @@ ul li {
   margin: 0 !important;
 }
 
+.pense-bete {
+  position: relative;
+  color: white;
+}
+
+.pense-bete-text {
+  position: absolute;
+  text-align: left;
+  padding: 30px 15px;
+  font-size: 14px;
+  top: 8px;
+  left: 16px;
+}
+
+.video-aide {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Table*/
+table {
+  width: 100%;
+  background-color: #fffdeb;
+  border-radius: 5px;
+  overflow: hidden;
+  border-spacing: 0;
+  margin-top: 50px;
+}
+
+td {
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+  border-left: 2px solid #fff;
+  border-bottom: 1.5px solid #fff;
+}
+
+.td-left {
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  border-left: 2px solid #fff;
+  border-bottom: 1.5px solid #fff;
+  background-color: rgb(221, 68, 94, 0.2);
+}
+
+.td-right {
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  border-left: 2px solid #fff;
+  border-bottom: 1.5px solid #fff;
+  background-color: rgb(157, 69, 219, 0.2);
+}
+
+.entete {
+  color: #fff;
+  font-family: "Branding-bold";
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 10px;
+  background-color: #9d45db;
+  text-align: center;
+  border-bottom: none;
+}
+.last-row td {
+  border-bottom: none;
+}
+
 /*accordeon */
+/* Style the buttons that are used to open and close the accordion panel */
 .accordion {
   font-family: "Branding-bold";
   background-color: #9d45db; /*#54409D;*/
@@ -295,13 +355,14 @@ ul li {
   box-shadow: 2px 2px 2px gray, -1px -1px 2px white;
 }
 
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active,
 .accordion:hover {
   background-color: #9d45db;
   opacity: 0.6;
 }
 
-/* Accordion panel*/
+/* Style the accordion panel. Note: hidden by default */
 .panel {
   padding: 18px;
   background-color: rgba(237, 221, 249, 0.2); /*#EDDDF9; */
@@ -332,4 +393,26 @@ ul li {
 
 .savoir h3 {
   color: #54409d;
+}
+
+/* ---- Slick slider ----*/
+
+.animcontainer {
+  margin: 50px 0;
+}
+
+.titre-slider {
+  color: #fff;
+  font-family: "Branding-bold";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 10px;
+  background-color: #9d45db;
+  text-align: center;
+  border-radius: 5px 5px 0 0;
+}
+
+.image-slider {
+  margin: 0 !important;
 }
