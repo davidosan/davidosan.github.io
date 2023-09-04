@@ -1,0 +1,426 @@
+/* ---- Fonts  ----*/
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap");
+
+@font-face {
+  font-family: "Branding-black";
+  src: url("./font/Branding-Black.otf");
+  font-style: 800;
+}
+
+@font-face {
+  font-family: "Branding-bold";
+  src: url("./font/Branding-SemiBold.otf");
+  font-style: 600;
+}
+
+@font-face {
+  font-family: "Branding";
+  src: url("./font/Branding\ SF\ Medium.otf");
+  font-style: 500;
+}
+
+/* ---- General ----*/
+
+html,
+body {
+  overflow: auto;
+  margin: 0px;
+  padding: 0px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #33315F;
+  width: 100%;
+  position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+li,
+ul,
+a,
+p,
+img {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* ---- Header ----*/
+
+.imgHeader {
+  width: 100%;
+  position: relative;
+  display: block;
+  max-height: 280px;
+}
+
+.titre {
+  background-color: #803BFF;
+  width: 100%;
+  display: block;
+  position: relative;
+}
+
+.titre h1 {
+  color: #fff;
+  font-family: "Branding-bold";
+  font-weight: 600;
+  font-size: 26px;
+  padding: 16px;
+  text-align: left;
+  position: relative;
+  line-height: 30px;
+  margin-left: 8px;
+}
+
+.titre h2 {
+  color: #fff;
+  font-family: "Branding";
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+/* ---- Content ----*/
+
+.content {
+  margin: 20px;
+}
+
+h2 {
+  color: #653eb9;
+  font-family: "Branding-bold";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+
+.sommaire h2 {
+  margin-bottom: 0;
+}
+
+h3 {
+  color: #000;
+  font-family: "Branding-bold";
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+
+h5 {
+  color: #000087;
+  font-family: "Branding-bold";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+
+p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #000;
+  margin-bottom: 15px;
+}
+
+ul {
+  margin-bottom: 10px;
+}
+
+ul li {
+  list-style-image: url("./img/point-liste_bis.svg");
+  list-style-position: outside;
+  padding-left: 5px;
+  margin-left: 10px;
+  margin-bottom: 4px;
+}
+
+.intro {
+  margin-bottom: 30px;
+}
+
+.sommaire {
+  margin-bottom: 50px;
+}
+
+.li-sommaire {
+  padding-left: 4px;
+  margin-left: 0px;
+  font-size: 16px;
+  margin-top: 12px;
+  color: black;
+}
+
+.li-sommaire a {
+  color: #0086f4;
+}
+
+.content img,
+.content object {
+  width: 100%;
+  position: relative;
+  display: block;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 30px 0 30px;
+}
+
+.chapter {
+  background-color: #653eb9;
+  color: #fff;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 8px;
+}
+
+.picto, .picto2 {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 24px;
+  align-items: self-start;
+}
+
+.picto object, .picto2 object {
+  width: 140px;
+  height: 140px;
+  margin: 0 10px 0 0px;
+}
+
+.picto p {
+  margin-bottom: 0;
+}
+
+.picto em {
+  display: block;
+  margin-top: 10px;
+}
+
+.picto li {
+  margin: 10px 0 0px 0;
+  list-style-image: url("./img/fleche.svg");
+}
+
+.picto2 {
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 8px;
+  margin-top: 24px;
+  font-weight: 600;
+  color:#54409d;
+}
+.picto2 object {
+  height: 50px;
+  width: 30px;
+  margin-left: 8px;
+}
+
+.etape {
+  background-color: #f0ecff;
+  margin-left: 11px;
+  margin-bottom: 8px;
+  border-left: 4px dotted #c5cbe3;
+}
+
+.etape li {
+  list-style-image: url("./img/point-liste.svg");
+  margin-left: 8px;
+}
+
+.etape li  b{
+  font-weight:600 ;
+}
+
+.formation {
+  background-color: #e7f1fd;
+  padding: 18px;
+  margin: 0px;
+  border-radius: 8px;
+}
+
+.td-left {
+  background: #f7e3e6;
+}
+
+.td-right {
+  background: #f4eeff;
+}
+
+.formation p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: auto;
+  color: #301d5e;
+  position: relative;
+  margin: 0px;
+}
+
+.numero-formation {
+  color: white;
+  font-family: "Branding";
+  font-weight: 500;
+  font-size: 18px;
+  background-color: #44198f;
+  padding: 4px 12px;
+  display: inline;
+  border-radius: 8px;
+  margin-left: 12px;
+  position: absolute;
+  top: -18px;
+}
+
+.pense-bete {
+  position: relative;
+  color: white;
+}
+
+.pense-bete-text {
+  position: absolute;
+  text-align: left;
+  padding: 30px 15px;
+  font-size: 14px;
+  top: 8px;
+  left: 16px;
+}
+
+.video-aide {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ---- Slick slider ----*/
+
+.animcontainer {
+  margin: 50px 0;
+}
+
+.titre-slider {
+  color: #fff;
+  font-family: "Branding-bold";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 10px;
+  background-color: #ffbc33;
+  text-align: center;
+  border-radius: 5px 5px 0 0;
+}
+
+.image-slider {
+  margin: 0 !important;
+}
+
+/*accordeon */
+
+.accordion {
+  background-color: #f0ecff;
+  margin-top: 16px;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  font-family: "Branding";
+  font-weight: 600;
+  border: 1px solid #803BFF;
+  outline: none;
+  border-radius: 5px;
+  padding: 8px;
+  margin-left: -8px;
+}
+
+.plus {
+  float: right;
+  display: block;
+  font-family: "Branding-bold";
+  font-size: 18px;
+  color: white;
+  font-weight: 800;
+  transition: 0.4s;
+  margin-top: -4px;
+  margin-right: -4px;
+  border-radius: 8px;
+  padding: 4px;
+  padding-left: 6px;
+  padding-right: 6px;
+  background-color: #803BFF;
+}
+
+/* .accordion::after {
+  content: "➕";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+} */
+
+.active,
+.accordion:hover {
+  background-color: #803BFF;
+  color: white;
+  border-radius: 8px 8px 0 0;
+}
+
+.active .plus {
+  visibility: hidden;
+}
+
+/* Accordion panel*/
+.panel {
+  width: 100%;
+  margin-top: -1px;
+  margin-left: -8px;
+  padding-right: 16px;
+  background-color: #fdfcff;
+  display: none;
+  overflow: hidden;
+  border: 1px solid #803BFF;
+  border-radius: 0 0 8px 8px;
+}
+
+.panel ul {
+  padding: 16px;
+  margin-bottom: 0;
+}
+
+.panel p {
+  padding: 8px;
+  margin-bottom: 0;
+}
+
+/* ---- Bon à savvoir ----*/
+
+.savoir {
+  background-color: #fff8e3;
+  position: relative;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 50px 0 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.savoir object {
+  position: absolute;
+  width: 80px;
+  top: 0;
+  right: 0;
+  margin: -40px 10px 0 0;
+}
+
+.savoir ul li {
+  list-style-image: url("./img/point-liste3.svg");
+  list-style-type: disc;
+}
+
+.savoir h3 {
+  color: black;
+}
