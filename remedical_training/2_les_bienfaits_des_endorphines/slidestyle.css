@@ -229,10 +229,12 @@ ul li {
 
 .td-left {
   background: #f7e3e6;
+  padding: 5px;
 }
 
 .td-right {
   background: #f4eeff;
+  padding: 5px;
 }
 
 .formation p {
