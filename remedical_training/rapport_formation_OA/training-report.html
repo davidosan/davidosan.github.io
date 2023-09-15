@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Evaluer les effets de mon bracelet</title>
+    <link rel="stylesheet" href="./slidestyle.css">
+    <script type='text/javascript' src=./js/param.js></script>
+    <script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
+  </head>
+  <!-- http://127.0.0.1:5502/remedical_training/rapport_formation_OA/training-report.html?creation_date=14-09-2023&device_activation_date=2023-07-06&improvement_duration=6&partial_pgic=un%20peu%20am%C3%A9lior%C3%A9e&sessions_mean=0&sessions_mode=0&social_comments=Ces%20observations%20ont%20%C3%A9galement%20%C3%A9t%C3%A9%20faites%20par%20des%20membres%20de%20votre%20entourage.&x_fatigue=null&x_mood=null&x_pain=1%20b%C3%A9n%C3%A9fice%20&x_sleep=3&x_social_life=2&x_stiffness=18&x_stress=32&x_total=14%20b%C3%A9n%C3%A9fice%20report%C3%A9 -->
+
+  <body onload="updateContent();checkFields()">
+    <div class="content">
+      <div class="title">
+        <img src="img/item_report.svg" alt="">
+        <h1>Rapport d'inventaire<br> des bénéfices ressentis</h1> (<span id="creation_date"></span>)<p>L’inventaire des
+          bénéfices proposé par Remedee est un outil pour vous aider à utiliser votre bracelet. Il ne doit en rien se
+          substituer à votre suivi médical.</p>
+      </div>
+      <div class="section">
+        <h2>Impression de changement</h2>
+        <p>Selon vous, depuis l’utilisation du bracelet Remedee, votre qualité de vie s’est <span
+            id="impression_of_change"><b></b></span> améliorée.</p>
+      </div>
+      <div class="section">
+        <h2>Bénéfices ressentis</h2>
+        <div id="no_benefits" style="display: none;">
+          <p>Après <b>6 semaines</b> d’utilisation de la Solution Remedee, vous n'avez reporté aucun bénéfice.</p>
+        </div>
+        <div id="with_benefits" style="display: none;">
+          <p>Après <b>6 semaines</b> d’utilisation de la Solution Remedee, vous avez reporté avoir ressenti <b><span
+                id="x_total"></span> bénéfice(s)</b>&nbsp;:</p>
+          <table>
+            <tr id="tr_x_pain">
+              <td class="td-left">Douleurs</td>
+              <td><b><span id="x_pain"></span></b></td>
+            </tr>
+            <tr id="tr_x_sleep">
+              <td class="td-left">Sommeil</td>
+              <td><b><span id="x_sleep"></span> bénéfice</b></td>
+            </tr>
+            <tr id="tr_x_fatigue">
+              <td class="td-left">Fatigue</td>
+              <td><b><span id="x_fatigue"></span></b></td>
+            </tr>
+            <tr id="tr_x_stiffness">
+              <td class="td-left">Raideur</td>
+              <td><b><span id="x_stiffness"></span></b></td>
+            </tr>
+            <tr id="tr_x_stress">
+              <td class="td-left">Gestion du stress</td>
+              <td><b><span id="x_stress"></span></b></td>
+            </tr>
+            <tr id="tr_x_mood">
+              <td class="td-left">Humeur / Moral</td>
+              <td><b><span id="x_mood"></span></b></td>
+            </tr>
+            <tr id="tr_x_socialLife">
+              <td class="td-left">Activités et vie sociale</td>
+              <td><b><span id="x_socialLife"></span></b></td>
+            </tr>
+          </table>
+          <p><span id="social_comments"></span></p>
+        </div>
+      </div>
+      <div class="section">
+        <h2>Utilisation du bracelet Remedee</h2>
+        <p>Pour la période du <b><span id="device_activation_date"></span></b> (<i>date d'activation du bracelet</i>) au
+          <b><span id="creation_date"></span></b>: </p>
+        <ul>
+          <li>Votre moyenne d'utilisation de bracelet est de <b><span id="sessions_mean"></span> sessions</b> par jours.
+          </li>
+          <li>La plupart du temps, vous effectuez <b><span id="sessions_mode"></span> sessions</b> par jours.</li>
+        </ul>
+      </div>
+      <div class="section" id="effect">
+        <h2>Evaluation des effets</h2>
+        <p>Afin d’évaluer l’efficacité de l’utilisation de votre bracelet, <b> interrogez vous </b>:</p>
+        <ul>
+          <li>Je fais 1 à 3 sessions Remedee par jour (jusqu’à 5 à 6 sessions par jour)</li>
+          <li>J’utilise mon bracelet tous les jours</li>
+          <li>Afin de mettre en place une routine d’utilisation, j’ai associé les sessions avec mes activités
+            quotidiennes, par exemple le moment des repas</li>
+          <li>Pour préserver ma routine d’utilisation et favoriser les bénéfices, j’emporte le bracelet et son étui lors
+            de mes déplacements</li>
+        </ul>
+        <div class="savoir">
+          <object type="image/svg+xml" data="./img/savoir.svg"></object>
+          <h3>Bon à savoir !</h3>
+          <p>Certaines sessions peuvent être particulièrement efficaces pour lutter contre des douleurs ou inconforts
+            liés à la fibromyalgie :</p>
+          <ul>
+            <li>Une session le matin pour les raideurs matinales</li>
+            <li>Une session en milieu ou fin d’après midi pour réduire la remontée des douleurs</li>
+            <li>Une session avant ou après un effort physique pour réduire les douleurs, les courbatures,</li>
+            <li>Une session durant une station immobile prolongée pour réduire la raideur et les douleurs associées,
+            </li>
+            <li>Une session dans l’heure précédant le coucher pour faciliter l’endormissement,</li>
+            <li>Une session lors de réveils nocturnes, afin de vous aider à vous rendormir.
+          </ul>
+        </div>
+        <br>
+        <p class="coach">N'hésitez pas à discuter avec votre coach Remedee: il peut vous aider à trouver des stratégies
+          d’utilisation adaptées à votre situation</p>
+      </div>
+    </div>
+    <script src="checkFields()"></script>
+  </body>
+
+</html>`

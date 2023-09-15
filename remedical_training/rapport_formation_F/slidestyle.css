@@ -1,0 +1,226 @@
+/* ---- Fonts  ----*/
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap");
+
+@font-face {
+  font-family: "Branding-black";
+  src: url("./font/Branding-Black.otf");
+  font-style: 800;
+}
+
+@font-face {
+  font-family: "Caveat";
+  src: url("./font/Caveat-Regular.ttf");
+  font-style: 800;
+}
+
+@font-face {
+  font-family: "Branding-bold";
+  src: url("./font/Branding-SemiBold.otf");
+  font-style: 600;
+}
+
+@font-face {
+  font-family: "Branding";
+  src: url("./font/Branding\ SF\ Medium.otf");
+  font-style: 500;
+}
+
+/* ---- General ----*/
+
+html,
+body {
+  overflow: auto;
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000;
+  width: 100%;
+  position: relative;
+  background-color: rgba(246, 247, 255, 0.513);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+li,
+ul,
+a,
+p,
+img {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* ---- Header ----*/
+.title {
+  padding: 24px 16px 24px 16px;
+  font-size: 18px;
+  text-align: center;
+}
+
+
+.section {
+  margin-bottom: 16px;
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid #dcdeebab;
+  padding: 16px;
+  filter: drop-shadow(-4px 4px 8px #696f991f);
+}
+
+/* ---- Content ----*/
+
+.content {
+  margin: 4px;
+}
+
+h1 {
+  color: black;
+  font-family: "Branding-bold";
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  line-height: 28px;
+}
+
+h2 {
+  color: #6041a0;
+  font-family: "Branding-bold";
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+
+b {
+  color: #000000;
+  text-decoration: underline;
+  text-underline-offset: 1px;
+  text-decoration-color: #ffeebc;
+  text-decoration-thickness: 2px;
+}
+
+h3 {
+  font-family: "Branding-bold";
+  font-size: 20px;
+  color: black;
+}
+
+
+ul {
+  margin: 16px;
+  list-style-type: square;
+  line-height: inherit;
+}
+
+ul li {
+  margin-bottom: 8px;
+  /* padding-left: 5px;
+  margin-left: 10px;
+  margin-bottom: 8px; */
+}
+
+/*Table*/
+table {
+  overflow: hidden;
+  margin: 16px;
+  margin-left: 8px;
+  margin-bottom: 24px;
+  border-collapse: collapse;
+}
+
+td {
+  border: #ccd2e5 1px solid;
+  width: auto;
+  text-align: left;
+  padding-left: 8px;
+  padding-right: 64px;
+}
+
+
+.td-left {
+  width: 140px;
+  padding: 4px;
+  text-align: left;
+}
+
+.td-right {
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  border-left: 2px solid #fff;
+  border-bottom: 1.5px solid #fff;
+  background-color: rgb(157, 69, 219, 0.2);
+}
+
+.entete {
+  color: #fff;
+  font-family: "Branding-bold";
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 10px;
+  background-color: #9d45db;
+  text-align: center;
+  border-bottom: none;
+}
+
+.last-row td {
+  border-bottom: none;
+}
+
+
+/* ---- Bon à savvoir ----*/
+
+#effect ul {
+  list-style: disc;
+}
+
+.config {
+  background-color: #ffeabe;
+  position: relative;
+  border-radius: 16px;
+  padding: 16px;
+  margin: 8px;
+}
+
+.config h3 {
+  color: #4d2d05;
+  margin-bottom: 8px;
+}
+
+.savoir {
+  background-color: #EAECFC;
+  position: relative;
+  border-radius: 16px;
+  padding: 16px;
+  margin: 8px;
+
+}
+
+.coach {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 14px;
+  padding: 8px;
+  line-height: 22px;
+  color: #572de2;
+}
+
+.config object,
+.savoir object {
+  position: absolute;
+  width: 80px;
+  top: 0;
+  right: 0;
+  margin: -40px 10px 0 0;
+}
+
+.savoir h3 {
+  color: #490287;
+  margin-bottom: 8px;
+}

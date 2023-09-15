@@ -55,13 +55,14 @@ img {
 
 .imgHeader {
   width: 100%;
+  height: auto;
   position: relative;
   display: block;
   max-height: 280px;
 }
 
 .titre {
-  background-color: #803bff;
+  background-color: #612dc1;
   width: 100%;
   display: block;
   position: relative;
@@ -216,7 +217,7 @@ ul li {
 }
 
 .picto2 {
-  align-items: center;
+  align-items: top;
   margin: 0;
   padding: 0;
   margin-bottom: 8px;
@@ -224,6 +225,7 @@ ul li {
   font-weight: 600;
   color: #54409d;
 }
+
 .picto2 object {
   height: 50px;
   width: 30px;
@@ -240,6 +242,12 @@ ul li {
   padding-right: 8px;
 }
 
+.etape-text {
+  font-family: "Branding-bold";
+  font-size: 18px;
+  color: #54409d;
+}
+
 .etape li {
   list-style-image: url("./img/point-liste.svg");
   margin-left: 8px;
@@ -247,10 +255,19 @@ ul li {
 
 .etape li b {
   font-weight: 600;
+  ;
+}
+
+.etape li i {
+  font-style: normal;
+  font-family: "Branding-bold";
+  font-size: 17px;
+  color: #54409d;
+  text-decoration: underline;
+  background-color: #ffffff32;
 }
 
 .formation {
-  background-color: #e7f1fd;
   padding: 18px;
   margin: 0px;
   border-radius: 8px;
@@ -275,10 +292,9 @@ ul li {
 
 .numero-formation {
   color: white;
-  font-family: "Branding";
-  font-weight: 500;
-  font-size: 18px;
-  background-color: #44198f;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: #9f40ff;
   padding: 4px 12px;
   display: inline;
   border-radius: 8px;
@@ -340,7 +356,7 @@ ul li {
   text-align: left;
   font-family: "Branding";
   font-weight: 600;
-  border: 1px solid #803bff;
+  border: 1px solid #653eb9;
   outline: none;
   border-radius: 5px;
   padding: 8px;
@@ -373,7 +389,7 @@ ul li {
 
 .active,
 .accordion:hover {
-  background-color: #803bff;
+  background-color: #653eb9;
   color: white;
   border-radius: 8px 8px 0 0;
 }
@@ -408,12 +424,12 @@ ul li {
 /* ---- Bon à savvoir ----*/
 
 .savoir {
-  background-color: #fff8e3;
+  background-color: #ffdeb880;
   position: relative;
   border-radius: 5px;
   padding: 20px;
   margin: 50px 0 20px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: #0000003d 0px 3px 8px;
 }
 
 .savoir object {
@@ -431,4 +447,8 @@ ul li {
 
 .savoir h3 {
   color: black;
+}
+
+.pagination {
+  visibility: hidden;
 }

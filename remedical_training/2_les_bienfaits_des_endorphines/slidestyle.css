@@ -60,7 +60,7 @@ img {
 }
 
 .titre {
-  background-color: #803BFF;
+  background-color: #612dc1;
   width: 100%;
   display: block;
   position: relative;
@@ -248,10 +248,9 @@ ul li {
 
 .numero-formation {
   color: white;
-  font-family: "Branding";
-  font-weight: 500;
-  font-size: 18px;
-  background-color: #44198f;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: #9f40ff;
   padding: 4px 12px;
   display: inline;
   border-radius: 8px;
@@ -346,7 +345,7 @@ ul li {
 
 .active,
 .accordion:hover {
-  background-color: #803BFF;
+  background-color: #653eb9;
   color: white;
   border-radius: 8px 8px 0 0;
 }
@@ -381,7 +380,7 @@ ul li {
 /* ---- Bon à savvoir ----*/
 
 .savoir {
-  background-color: #fff8e3;
+  background-color: #ffdeb880;
   position: relative;
   border-radius: 5px;
   padding: 20px;
@@ -404,4 +403,8 @@ ul li {
 
 .savoir h3 {
   color: black;
+}
+
+.pagination {
+  visibility: hidden;
 }
