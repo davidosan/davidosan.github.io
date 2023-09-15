@@ -19,7 +19,6 @@
   src: url("./font/Branding-SemiBold.otf");
   font-style: 600;
 }
-
 @font-face {
   font-family: "Branding";
   src: url("./font/Branding\ SF\ Medium.otf");
@@ -33,11 +32,11 @@ body {
   overflow: auto;
   margin: 0px;
   padding: 0px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: sans-serif;
   font-weight: 400;
-  font-size: 15px;
-  line-height: 22px;
-  color: #33315F;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000;
   width: 100%;
   position: relative;
   background-color: rgba(246, 247, 255, 0.513);
@@ -64,17 +63,6 @@ img {
   text-align: center;
 }
 
-.title p {
-  color: black;
-  margin-top: 16px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 22px;
-  color: #33315F;
-  text-align: left;
-}
-
 
 .section {
   margin-bottom: 16px;
@@ -91,7 +79,7 @@ img {
   margin: 4px;
 }
 
-h1 {
+h1{
   color: black;
   font-family: "Branding-bold";
   font-weight: 600;
@@ -108,7 +96,7 @@ h2 {
   margin-bottom: 8px;
 }
 
-b {
+b{
   color: #000000;
   text-decoration: underline;
   text-underline-offset: 1px;
@@ -126,11 +114,11 @@ h3 {
 ul {
   margin: 16px;
   list-style-type: square;
-  line-height: inherit;
+  line-height:inherit;
 }
 
 ul li {
-  margin-bottom: 8px;
+  margin-bottom: 8px; 
   /* padding-left: 5px;
   margin-left: 10px;
   margin-bottom: 8px; */
@@ -180,7 +168,6 @@ td {
   text-align: center;
   border-bottom: none;
 }
-
 .last-row td {
   border-bottom: none;
 }
@@ -205,33 +192,13 @@ td {
   margin-bottom: 8px;
 }
 
-/* ---- Bon à savvoir ----*/
-
 .savoir {
-  background-color: #ffdeb880;
+  background-color: #EAECFC;
   position: relative;
-  border-radius: 5px;
-  color: black;
-  padding: 20px;
-  margin: 50px 0 20px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-.savoir object {
-  position: absolute;
-  width: 80px;
-  top: 0;
-  right: 0;
-  margin: -40px 10px 0 0;
-}
-
-.savoir ul li {
-  list-style-image: url("./img/point-liste3.svg");
-  list-style-type: disc;
-}
-
-.savoir h3 {
-  color: black;
+  border-radius: 16px;
+  padding: 16px;
+  margin: 8px;
+  
 }
 
 .coach {
@@ -239,13 +206,18 @@ td {
   font-size: 14px;
   padding: 8px;
   line-height: 22px;
-  color: #2a1279;
+  color: #572de2;
 }
 
-.config objec {
+.config object, .savoir object {
   position: absolute;
   width: 80px;
   top: 0;
   right: 0;
   margin: -40px 10px 0 0;
+}
+
+.savoir h3 {
+  color: #490287;
+  margin-bottom: 8px;
 }
