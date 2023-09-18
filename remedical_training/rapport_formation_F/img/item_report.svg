@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="62" height="62" viewBox="0 0 62 62">
+  <g id="item_report" transform="translate(-10893 -139)">
+    <rect id="Rectangle_2846" data-name="Rectangle 2846" width="62" height="62" rx="31" transform="translate(10893 139)" fill="#caceea"/>
+    <g id="item_report-2" data-name="item_report" transform="translate(-164 3000.907)">
+      <g id="Group_4110" data-name="Group 4110" transform="translate(11072.104 -2847.914)">
+        <g id="Rectangle_2763" data-name="Rectangle 2763" fill="#fff" stroke="#301d5e" stroke-width="2">
+          <path d="M4,0H28.92a4,4,0,0,1,4,4V34.978a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V4A4,4,0,0,1,4,0Z" stroke="none"/>
+          <path d="M4,1H28.92a3,3,0,0,1,3,3V33.978a0,0,0,0,1,0,0H1a0,0,0,0,1,0,0V4A3,3,0,0,1,4,1Z" fill="none"/>
+        </g>
+        <g id="Layer_2" data-name="Layer 2" transform="translate(3.248 2.983)">
+          <g id="invisible_box" data-name="invisible box" transform="translate(0 3.067)">
+            <rect id="Rectangle_2565" data-name="Rectangle 2565" width="23.893" height="29.559" fill="none"/>
+            <rect id="Rectangle_2566" data-name="Rectangle 2566" width="23.893" height="29.559" fill="none"/>
+          </g>
+          <g id="icons_Q2" data-name="icons Q2" transform="translate(2.463)">
+            <g id="Group_3728" data-name="Group 3728">
+              <path id="Path_37813" data-name="Path 37813" d="M27.705,11.841a9.853,9.853,0,1,0-15.4,8.129v7.821a1.232,1.232,0,0,0,1.909,1.047L17.852,26l3.633,2.833a1.232,1.232,0,0,0,1.909-1.047V19.97A9.853,9.853,0,0,0,27.705,11.841Zm-17.243,0a7.39,7.39,0,1,1,7.39,7.39,7.39,7.39,0,0,1-7.39-7.39Z" transform="translate(-7.998 -1.97)" fill="#33315f"/>
+              <path id="Path_37814" data-name="Path 37814" d="M19.489,16.756l-.308,1.909a.677.677,0,0,0,.924.677l1.6-1.17,1.6,1.17a.677.677,0,0,0,.924-.677l-.308-1.909,1.293-1.232a.677.677,0,0,0-.369-1.108l-1.786-.246-.8-1.786a.616.616,0,0,0-1.108,0l-.8,1.786-1.786.246a.677.677,0,0,0-.369,1.108Z" transform="translate(-11.852 -5.837)" fill="#33315f"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <rect id="Rectangle_2766" data-name="Rectangle 2766" width="39" height="39" transform="translate(11069 -2850.907)" fill="none"/>
+    </g>
+  </g>
+</svg>

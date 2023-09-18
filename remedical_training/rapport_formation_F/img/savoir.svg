@@ -53,7 +53,7 @@
        d="M67.181,20.711a16.318,16.318,0,0,1,1.11,6.474,25.773,25.773,0,0,1-3.1,10.859A41.812,41.812,0,0,1,33.769,60.123C22.3,61.574,10.013,58.418,3.691,48.041-.45,41.244-1,32.487,1.511,25.015,3.536,18.993,8.14,11.793,15.225,11.576c6.009-.183,10.539,5.176,15.936,7.822,5.7,2.8,11.564,1.807,16.965-1.149,2.344-1.284,4.612-3.845,6.958-4.825,3.134-1.31,7.507,1.025,9.587,3.267a12.936,12.936,0,0,1,2.509,4.021"
        fill="#b12100"
        transform="translate(244.656 294.529)"
-       style="fill:#803BFF;fill-opacity:1" />
+       style="fill:#FFA701;fill-opacity:1" />
     <g
        id="Groupe_3994"
        data-name="Groupe 3994"
@@ -90,7 +90,7 @@
        data-name="Tracé 38736"
        d="M22.729,35.169a15.6,15.6,0,1,1,28.214,9.187h0c-2.228,3.357-8.015,7.146-8.015,9.416v2.594a.937.937,0,0,1-.937.937h-7.32a.938.938,0,0,1-.937-.937V53.772c0-2.27-5.787-6.059-8.014-9.416a15.529,15.529,0,0,1-2.992-9.187"
        transform="translate(240 281)"
-       fill="#ffbc33" />
+       fill="#FFEB00" />
     <rect
        id="Rectangle_3031"
        data-name="Rectangle 3031"
@@ -116,35 +116,35 @@
        width="1.693"
        height="7.51"
        transform="translate(251.307 315.43) rotate(-80.001)"
-       fill="#ffbc33" />
+       fill="#FFEB00" />
     <rect
        id="Rectangle_3033"
        data-name="Rectangle 3033"
        width="7.51"
        height="1.693"
        transform="translate(297.72 315.068) rotate(-10.002)"
-       fill="#ffbc33" />
+       fill="#FFEB00" />
     <rect
        id="Rectangle_3034"
        data-name="Rectangle 3034"
        width="7.511"
        height="1.692"
        transform="translate(293.316 303.373) rotate(-45)"
-       fill="#ffbc33" />
+       fill="#FFEB00" />
     <rect
        id="Rectangle_3035"
        data-name="Rectangle 3035"
        width="1.692"
        height="7.51"
        transform="translate(277.487 289.98)"
-       fill="#ffbc33" />
+       fill="#FFEB00" />
     <rect
        id="Rectangle_3036"
        data-name="Rectangle 3036"
        width="1.692"
        height="7.511"
        transform="translate(256.862 299.279) rotate(-45)"
-       fill="#ffbc33" />
+       fill="#FFEB00" />
     <rect
        id="Rectangle_3037"
        data-name="Rectangle 3037"
