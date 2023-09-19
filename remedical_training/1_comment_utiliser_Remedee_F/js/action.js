@@ -11,3 +11,15 @@ function navigateTo(pageIndex) {
     }
 }
 
+function finishTherapeuticLearn() {
+    let data = JSON.stringify({"action": "finishTherapeuticLearn"});
+    if (window.navigator.userAgent.match(/(iPod|iPhone|iPad)/)) {
+        const messageHandlers = window.webkit.messageHandlers;
+        if (messageHandlers) {
+            messageHandlers.callbackHandler.postMessage(data);
+        }
+    }
+    if (navigator.userAgent.match(/Android/i)) {
+        Android.sendData(data);
+    }   
+}

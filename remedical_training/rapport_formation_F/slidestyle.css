@@ -234,6 +234,24 @@ td {
   color: black;
 }
 
+.savoir2 {
+  background-color: #bec3ff71;
+  position: relative;
+  border-radius: 5px;
+  color: black;
+  padding: 20px;
+  margin: 50px 0 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.savoir2 object {
+  position: absolute;
+  width: 80px;
+  top: -16px;
+  right: 0;
+  margin: -40px 10px 0 0;
+}
+
 .coach {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 14px;

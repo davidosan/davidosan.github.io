@@ -21,8 +21,8 @@
       </div>
       <div class="section">
         <h2>Impression de changement</h2>
-        <p>Selon vous, depuis l’utilisation du bracelet Remedee, votre qualité de vie s’est <span
-            id="impression_of_change"><b></b></span> améliorée.</p>
+        <p>Selon vous, depuis l’utilisation du bracelet Remedee, votre qualité de vie s’est <b><span
+              id="impression_of_change"></span> améliorée.</b></p>
       </div>
       <div class="section">
         <h2>Bénéfices ressentis</h2>
@@ -31,7 +31,7 @@
         </div>
         <div id="with_benefits" style="display: none;">
           <p>Après <b>6 semaines</b> d’utilisation de la Solution Remedee, vous avez reporté avoir ressenti <b><span
-                id="x_total"></span> bénéfices</b>:</p>
+                id="x_total"></span> </b>:</p>
           <table>
             <tr id="tr_x_pain">
               <td class="td-left">Douleurs</td>
@@ -59,16 +59,16 @@
             </tr>
             <tr id="tr_x_socialLife">
               <td class="td-left">Activités et vie sociale</td>
-              <td><b><span id="x_socialLife"></span></b></td>
+              <td><b><span id="x_social_life"></span></b></td>
             </tr>
           </table>
-          <p><span id="social_comments"></span></p>
+          <p><b><span id="social_comments"></span></b></p>
         </div>
       </div>
       <div class="section">
         <h2>Utilisation du bracelet Remedee</h2>
         <p>Pour la période du <b><span id="device_activation_date"></span></b> (<i>date d'activation du bracelet</i>) au
-          <b><span id="creation_date"></span></b>: </p>
+          <b><span id="creation_date2"></span></b>: </p>
         <ul>
           <li>Votre moyenne d'utilisation de bracelet est de <b><span id="sessions_mean"></span> sessions</b> par jours.
           </li>
@@ -103,17 +103,22 @@
         </div>
         <p>
         <ul>
-          <li class="check">J’ai mentionné ressentir des bénéfices, sont ils nets ou partiels ?</li>
+          <li class="check">J’ai mentionné ressentir des bénéfices. Sont ils nets ou partiels ? <ul>
+              <li>
+                <p><b>Bénéfice net</b>: j’identifie clairement la différence entre avant l’utilisation du bracelet et
+                  maintenant. La fréquence et/ou l’intensité des symptômes ont diminué.</p>
+              </li>
+              <li>
+                <p><b>Bénéfice partiel</b>: j’identifie que les symptômes diminuent mais cette diminution reste faible
+                  ou inconstante. </p>
+              </li>
+            </ul>
+          </li>
         </ul>
         </p>
-        <p><b>Bénéfice net</b>: j’identifie clairement la différence entre avant l’utilisation du bracelet et
-          maintenant. La fréquence et/ou l’intensité des symptômes ont diminué.</p>
-        <br>
-        <p><b>Bénéfice partiel</b>: j’identifie que les symptômes diminuent mais cette diminution reste faible ou
-          inconstante.</p>
-        <div class="savoir">
-          <object type="image/svg+xml" data="./img/savoir.svg"></object>
-          <h3>Changer la configuration<br> de session ?</h3><br>
+        <div class="savoir2" style="margin-top: -16px;">
+          <object type="image/svg+xml" data="./img/bracelet-remedee.svg"></object>
+          <h3>Quand changer<br>la configuration de mon<br> bracelet Remedee ?</h3><br>
           <p>Deux durées de session sont disponibles dans le Remedee Kit F : Configuration C1 (30 minutes) et
             Configuration C2 (37 minutes).<br><br> En cas d’absence de bénéfices ou de bénéfices partiels, <b>la
               configuration C2 est recommandée.</b></p>
@@ -124,10 +129,13 @@
               alt="Icone de l'espace Documents" class="icon-training"
               style="display: inline; width: 40px; height : 40px; margin : 0px; vertical-align: middle">.</p>
         </div>
-        <br>
         <p class="coach">N'hésitez pas à discuter avec votre coach Remedee: il peut vous aider à trouver des stratégies
           d’utilisation adaptées à votre situation</p>
+        <br>
       </div>
+      <br>
+      <br>
+    </div>
     </div>
     <script src="checkFields()"></script>
   </body>
