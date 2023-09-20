@@ -404,5 +404,5 @@ ul li {
 }
 
 .pagination {
-  visibility: hidden;
+  visibility: visible;
 }
